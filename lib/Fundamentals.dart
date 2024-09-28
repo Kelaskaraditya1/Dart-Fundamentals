@@ -67,9 +67,44 @@ void main(){
 
 
   // Functions
-  print(sum(1,2));
-  String n=name();
-  print("My name is $n\n");
+
+  // print(sum(1,2));
+  // String n=name();
+  // print("My name is $n\n");
+
+  // Loops in Dart
+
+  // for loop
+
+  // for(int i=0;i<10;i++)
+  //   print("$i ");
+
+  // While loop
+
+  int i=0;
+  // while(i<10){
+  //   stdout.write("$i ");
+  //   i++;
+  // }
+
+  // do while loop
+
+  // do{
+  //   stdout.write("$i ");
+  //   i++;
+  // }while(i<10);
+
+
+  List list=[10,20,30,40,50,60,70,80,90,100];
+  // for in loop.
+  for(int i in list)
+    stdout.write("$i ");
+    print("\n");
+  // for Each loop
+  list.forEach(
+      (x)=>stdout.write("$x ")
+  );
+
 }
 
 int sum(int a,int b){
